@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Blade : MonoBehaviour
 {
+    public float sliceForce = 5f;
     private Camera mainCamera;
     private Collider bladeCollider;
     private TrailRenderer bladeTrail;
     private bool slicing;
-    
+    //private Vector3 direction;
+    //public Vector3 Direction => direction;
     public Vector3 direction { get; private set; }
     public float minSliceVelocity = 0.01f;
     private void Awake()

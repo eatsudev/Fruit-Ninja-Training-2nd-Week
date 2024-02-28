@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 556928535}
   m_Layer: 0
   m_Name: Blade
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -393,6 +393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afdcd52e698e77a44938ec7a185f4b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliceForce: 5
   minSliceVelocity: 0.01
 --- !u!1 &705507993
 GameObject:

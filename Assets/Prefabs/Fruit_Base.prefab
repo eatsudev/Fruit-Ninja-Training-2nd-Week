@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1250380216952785860}
   - component: {fileID: 1250380216952785861}
   - component: {fileID: 1250380216952785858}
+  - component: {fileID: 4579864854928559896}
   m_Layer: 0
   m_Name: Fruit_Base
   m_TagString: Untagged
@@ -64,6 +65,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4579864854928559896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250380216952785859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c633142550d1f0b4b858fe85ddacb431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whole: {fileID: 2133395601923553285}
+  sliced: {fileID: 2133395602037098937}
+  points: 1
 --- !u!1001 &1250380217294619988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -128,6 +144,11 @@ PrefabInstance:
 --- !u!4 &1643962657507173055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c478ef1ae916fc943bb406325f4c6871, type: 3}
+  m_PrefabInstance: {fileID: 1250380217294619988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2133395601923553285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c478ef1ae916fc943bb406325f4c6871, type: 3}
   m_PrefabInstance: {fileID: 1250380217294619988}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1250380217407534312
@@ -228,6 +249,11 @@ BoxCollider:
 --- !u!4 &1643962657402589955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcbbf7ec18bf3234d94b2c2e14dd0b99, type: 3}
+  m_PrefabInstance: {fileID: 1250380217407534312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2133395602037098937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dcbbf7ec18bf3234d94b2c2e14dd0b99, type: 3}
   m_PrefabInstance: {fileID: 1250380217407534312}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4169465734852127443 stripped
