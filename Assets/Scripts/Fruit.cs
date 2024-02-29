@@ -9,6 +9,7 @@ public class Fruit : MonoBehaviour
 
     private Rigidbody fruitRigidbody;
     private Collider fruitCollider;
+    private ParticleSystem juiceParticleEffect;
     
 
     public int points = 1;
@@ -17,11 +18,13 @@ public class Fruit : MonoBehaviour
     {
         fruitRigidbody = GetComponent<Rigidbody>();
         fruitCollider = GetComponent<Collider>();
+        juiceParticleEffect = GetComponentInChildren<ParticleSystem>();
     }
 
     private void Slice(Vector3 direction, Vector3 position, float force)
     {
         fruitCollider.enabled = false;
+        juiceParticleEffect.Play();
 
         whole.SetActive(false);
         
