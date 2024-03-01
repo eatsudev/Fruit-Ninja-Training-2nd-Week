@@ -7,9 +7,9 @@
 
 Single Responsibility
 
-<div>  </div>
+<div> Blade & Spawner </div>
 
-<h2> Blade & Spawner </h2>
+<h2> </h2>
 
 Open-Closed Principle
 
