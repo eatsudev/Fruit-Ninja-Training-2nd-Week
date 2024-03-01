@@ -33,4 +33,8 @@ Dependency Inversion Principle
 
 <div> GameManager </div>
 
+<h2></h2>
+
+Itch.io = https://eatsukeey.itch.io/fruit-ninja3d
+
 
